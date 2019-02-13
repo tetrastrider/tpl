@@ -1,0 +1,54 @@
+*{border:0;font:inherit;margin:0;padding:0;vertical-align:baseline;font-family:"proxima-nova-n7","proxima-nova-n6","proxima-nova",sans-serif;font-size:1vw;outline:0}
+body{color:#363636;font-family:Droid Sans;background: url(../imagenes/brillosbolas.png)#f8f8f8;background-size: contain;}
+b{font-weight:bold}
+h1,h2,h3,h4,h5,h6{line-height:2vw;position:relative;margin-bottom:1vw;font-weight: 600;}
+h1{font-size:3vw}
+h2{font-size:1.4vw}
+h3{font-size:1.3vw}
+h4{font-size:1.2vw}
+h5{font-size:1.1vw}
+h6{font-size:1vw}
+small{font-size:.8vw;color:#a1a1a1}
+p{line-height:1.6vw;text-transform:lowercase;/*color: #444;*/}
+li{list-style:none}
+hr{width:100%;height:1px}
+a{text-decoration:none;color:#363636}
+.todo{width:100%;border:0;margin:0 auto;padding:0;overflow:hidden}
+header{background:url(/imagenes/head.png),#000;height:16vw;width:100%;position:relative;display:inline-block;box-shadow:0 1px 1px rgba(0,0,0,0.1);background-size:contain;background-repeat:no-repeat}
+nav{width:70%;height:3vw;margin:0 auto;display:block;position:relative;bottom:-2.6vw;margin-left:27vw}
+footer{width:100%;height:18vw;clear:both;background:#333;color:white;display:inline-block;text-shadow:0 1px 2px rgba(0,0,0,.05)}
+footer h6[title='OVERCLOCKTECH 2014']{float:right;position:relative;margin:0 5vw}
+footer small{position:relative;float:right}
+.cuerpo{width:100%;position:relative;display:inline-block;overflow:hidden;}
+.servicios{display:inline-block;width:100%;margin:0 auto;border-top:1px solid #d9d9d9;overflow:hidden}
+.noticias{display:block;width:100%;margin:0 auto 0}
+.activo>a{color:#7d7d7d!important;}
+.copy{width:100%;display:inline-block;background:#000;padding:.5vw 0;height:1vw;margin-top:1vw;border:solid #000;border-top-color:#292929;border-width:.25vw 0}
+.b{color:#fff}
+.imglogo{width:55%;position:relative;color:#FFF;margin:0 0 0 33%;height:8vw;padding:1vw}
+.imglogo>p{text-align:center;color:#fff;margin-top:3vw}
+.imglogo>p:before{content:"\f0e4";font-family:FontAwesome;vertical-align:top;position:relative;top:.5vw;margin-right:1vw}
+.logo{float:left;position:relative}
+#activo{border-top:solid .2vw #00bff3; pointer-events: none;}
+.col{float:left;padding:1vw 1vw;position:relative;font-size:.95vw;cursor:pointer;color:#FFF;border-right:1px dotted #2d2d2d;border-top:.2vw solid transparent;text-transform:uppercase;font-family:"Open Sans";font-weight:700;border-top:.2vw solid #232323;background:url(/imagenes/pattern.png)}
+.col:hover{border-top:solid .2vw #00bff3}
+.col>a{vertical-align:middle;text-align:center}
+.social{display:inline-block;position:relative;padding:1vw;height:7vw}
+.social h6{padding-left:1vw}
+.face,.twi,.gog,.cor{font-family:FontAwesome;font-size:3vw;cursor:pointer;width:3vw;height:3vw;display:inline-block;vertical-align:middle;text-align:center;padding:.3vw;border-radius:2vw;margin-left:.5vw}
+.face:hover,.twi:hover,.gog:hover,.cor:hover{color:#242424;background:#fff}
+.face:after{content:"\f09a";text-decoration:none;list-style:none}
+.twi:after{content:"\f099"}
+.gog:after{content:"\f0d5"}
+.cor:after{content:"\f16d"}
+::-webkit-scrollbar{width:.5%}
+::-webkit-scrollbar-track{background:#deeafa}
+::-webkit-scrollbar-corner{background-color:#eaf0cd}
+::-webkit-scrollbar-button:start{background:#e4ecbe}
+::-webkit-scrollbar-button:end{background:#e4ecbe}
+::-webkit-scrollbar-thumb{background:#c0d4f7}
+#IrArriba{position:fixed;bottom:133px;right:9px}
+#IrArriba span{width:60px;height:60px;display:block;background:url(/imagenes/flecha-arriba.png) no-repeat center center}
+.cont{position:relative;width:27%;float:right;margin-right:5vw;top:1vw;display:inline-block;text-shadow:0 0 1px #021f3c;padding:1vw;}
+.top{border-bottom:1px solid #222}
+.bottom{border-top:1px solid #444}

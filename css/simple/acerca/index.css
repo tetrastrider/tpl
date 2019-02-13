@@ -1,0 +1,12 @@
+.ofrecidos{padding:1vw;width:100%;border:solid .2vw #ccc}
+.ofrecidos p{color:#282828;margin-bottom:2vw}
+.tucked-corners-top{position:relative;width:82%;margin:2vw auto;min-height:15vw;padding:1.5vw;box-shadow:0 1.2vw .6vw -1.2vw rgba(0,0,0,.5);background:#fff;padding:4vw 4vw 4vw 2vw}
+[class*='tucked-corners-']::before,[class*='tucked-corners-']::after{content:'';position:absolute;height:2vw;width:6vw;box-shadow:0 .4vw .85vw -.5vw rgba(0,0,0,.5);box-shadow:none\9}
+.tucked-corners-top::before,.tucked-corners-top::after{top:-.1vw}
+.tucked-corners-bottom::before,.tucked-corners-bottom::after{bottom:-.6vw}
+.tucked-corners-top::before,.tucked-corners-bottom::before{left:-2.6vw}
+.tucked-corners-top::after,.tucked-corners-bottom::after{right:-2.5vw}
+.tucked-corners-top::before{transform:rotate(-45deg);background:#F8F8F8}
+.tucked-corners-top::after{transform:rotate(45deg);background:#F8F8F8}
+.tucked-corners-bottom::before{transform:rotate(-135deg);background:#F8F8F8}
+.tucked-corners-bottom::after{transform:rotate(135deg);background:#F8F8F8}
